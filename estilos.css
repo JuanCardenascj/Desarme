@@ -1,0 +1,68 @@
+body {
+    background-color: #FFF2E0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #898AC4;
+}
+
+a {
+    text-decoration: none;
+    color: #A2AADB;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #898AC4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #C0C9EE;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #898AC4;
+}
+
+table th {
+    background-color: #A2AADB;
+    color: white;
+}
+
+form {
+    background-color: #C0C9EE;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #898AC4;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #898AC4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A2AADB;
+}
